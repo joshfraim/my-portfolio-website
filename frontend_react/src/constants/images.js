@@ -35,6 +35,12 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
+import amazonads from '../assets/amazonads.png';
+import amazonppc from '../assets/amazonppc.jpg';
+import helium from '../assets/helium.png';
+import sql from '../assets/sql.png';
+import tableau from '../assets/tableau1.png';
+
 
 export default {
   email,
@@ -71,4 +77,9 @@ export default {
   skype,
   spotify,
   sanity,
+  helium,
+  amazonads,
+  amazonppc,
+  sql,
+  tableau
 };

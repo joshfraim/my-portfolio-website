@@ -34,9 +34,7 @@ const Header = () => {
           </div>
 
           <div className='tag-cmp app__flex'>
-              <p className='p-text'> An Engineer</p>
-              <p className='p-text'> Web Develop</p>
-              <p className='p-text'> UX/UI Designer</p>
+              <p className='p-text'> I'm a <b>data analyst</b> passionate about finding meaningful insights in data. I find fulfillment in simplifying complex information and crafting clear, actionable strategies. With a commitment to accuracy and a problem-solving mindset, I aspire to facilitate informed decision-making through meaningful, data-driven insights.</p>   
           </div>
         </div>
       </motion.div>
@@ -60,7 +58,7 @@ const Header = () => {
         whileInView= {scaleVariants.whileInView}
         className= 'app__header-circles'
       >
-      {[images.sanity, images.react, images.sass].map((circle, index)=> (
+      {[images.sql, images.tableau, images.python].map((circle, index)=> (
         <div className='circle-cmp app__flex' key= {`circle-&{index}`}>
         <img src={circle} alt= 'circle'/>
         </div>
